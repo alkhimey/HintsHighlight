@@ -36,6 +36,11 @@
  * which highlight hotspots in the game. Players which are stuck and wish to skip the
  * "pixel hunting" stage of a game, can press a button to display an overlay layer with
  * all clickable hotspots highlighted by a shape.
+ * 
+ * The most basic way to integrate this module into you game is to add the script files.
+ * 
+ * The default implementation displays the layer as long as the "H" key is help down. 
+ * 
  * The user of this module can also provide it's own implementation of when and how to
  * activate the layer with the hints. This is configurable through the USE_CUSTOM_HANDLING
  * parameter. After setting USE_CUSTOM_HANDLING to true, the user must call CalculateHintsForRoom
@@ -44,8 +49,6 @@
  * Additionally, DisableHints/EnableHints to control when it is applicable to show the layer. 
  * For example, upon entering the menu, a user can call DisableHints and upon returning to 
  * the game, EnableHints can be called.
- *
- * The default implementation displays the layer as long as the "H" key is help down. 
  *
  * Please see the asc file for more configuration options.
  *
