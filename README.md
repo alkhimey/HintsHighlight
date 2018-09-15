@@ -11,8 +11,6 @@ Players which are stuck and wish to skip the "pixel hunting" stage of a game, ca
 
 ![Mixed cirles and rectangles activation gif](screenshots/mixed.gif)
 
-![Which hotspots present in the toom](screenshots/room_hotspots.PNG)
-
-![Circle hints](screenshots/circles.png)
-
-![Rectangular hints](screenshots/rectangles.png)
+![Which hotspots present in the toom](screenshots/room_hotspots.PNG =635x371)
+![Circular hints](screenshots/circles.png =635x371)
+![Rectangular hints](screenshots/rectangles.png =635x371)
