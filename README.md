@@ -9,8 +9,8 @@ Players which are stuck and wish to skip the "pixel hunting" stage of a game, ca
 
 ### Example
 
-<img src="screenshots/demo.gif" width="635px" height="371" />
+<img src="screenshots/demo.gif" width="635px" height="371px" />
 
-<img src="screenshots/room_hotspots.PNG" width="635px" height="371" />
-<img src="screenshots/circles.png" width="635px" height="371" />
-<img src="screenshots/rectangles.png" width="635px" height="371" />
+<img src="screenshots/room_hotspots.PNG" width="635px" height="371px" />
+<img src="screenshots/circles.png" width="635px" height="371px" />
+<img src="screenshots/rectangles.png" width="635px" height="371px" />
