@@ -1,7 +1,7 @@
 /** 
  * @author  Artium Nihamkin, artium@nihamkin.com
  * @date    09/2018
- * @version 1.0
+ * @version 1.1
  *  
  * @brief This is an AGS module that makes it possible to add a hinting
  *        system to a game. Upon user action, a shape will be drawn
