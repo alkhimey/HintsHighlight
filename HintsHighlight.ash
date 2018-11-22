@@ -58,6 +58,11 @@
 struct HintsHighlighter {
   
   /**
+   * Helper function for CalculateHintsForRoom
+   */
+  import static function UpdateHintWithNewPoint(int ID,  int x,  int y);
+  
+  /**
     * This function will recalculate the overlay that contains all the hints.
     * Do not run it every frame, it will cripple game's frame rate.
     */
