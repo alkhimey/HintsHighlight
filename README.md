@@ -9,7 +9,7 @@ Players can use this features when they wish to avoid "pixel hunting" and need a
 
 ### Example
 <img src="screenshots/demo.gif" width="635px" height="371px" />
-<sub> Game used for this demo is [_Sierra-style_](https://github.com/adventuregamestudio/ags-templates/blob/master/Templates/Sierra-style.agt) template. All rights for the shown art are reserved for the respective artists. </sub>
+<sup> Game used for this demo is <i><a href="https://github.com/adventuregamestudio/ags-templates/blob/master/Templates/Sierra-style.agt">Sierra-style </a></i> template. All rights for the shown art are reserved for the respective artists. </sup>
 
 ### Getting Started
 
