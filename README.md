@@ -1,11 +1,11 @@
 HintsHighlight Module
 ======================
 
-*HintsHighlight* is a module for AGS ([Advanture Game Studio](http://www.adventuregamestudio.co.uk/)) engine. 
+**HintsHighlight** is a module for AGS ([Advanture Game Studio](http://www.adventuregamestudio.co.uk/)) engine. 
 
 This module adds an overlay which highlights all the visible and clickable objects, hotspots and charactes.
 
-Players can use this features when they wish to avoid "pixel hunting" and need a hint to progress with the game.
+After adding this module to a game, players can use this features when they wish to avoid "pixel hunting" and need a hint to progress with the game.
 
 ### Example
 <img src="screenshots/demo.gif" width="635px" height="371px" />
@@ -15,9 +15,9 @@ Players can use this features when they wish to avoid "pixel hunting" and need a
 
 There are three ways of adding this module to a project. This list is ordered by increasing complexity:
 
-1. Importing an `.scm` file ("_Explore Project_ -> Right Click on _Scripts_ -> _Import Script..._. Get it from the [_Releases_](https://github.com/alkhimey/HintsHighlight/releases) section on Github.
-2. Creating an empty script called _HintsHighlight_ through engines interface, downloading the source from this repository and finally copying the downloaded script over the empty one. 
-3. Creating an empty script called _HintsHighlight_ through engines interface and delete it from windows explorer, clone this repository, create a [**hard** link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) from the cloned files to your games folder.
+1. Import an `.scm` file ("_Explore Project_ -> Right Click on _Scripts_ -> _Import Script..._. Get it from the [_Releases_](https://github.com/alkhimey/HintsHighlight/releases) section on Github.
+2. Create an empty script called _HintsHighlight_ through engines interface, download the source from this repository and finally copy the downloaded script over the empty one. 
+3. Create an empty script called _HintsHighlight_ through engines interface and delete it from windows explorer, clone this repository, create a [**hard** link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) from the cloned files to your games folder.
 
 The basic functionality of the module does not require any additional changes. Run the game and press the default key (`KEY_FOR_DISPLAYING_HINTS`, currently is set to `SPACE`) to see the hints.
 
@@ -43,15 +43,15 @@ To disable hints on objects, set this to 0.
 #### TOTAL_HINTS_SUPPORTED
 **IMPORTANT:** This value should always be the sum of 
 `MAX_ROOM_HOTSPOSTS_SUPPORTED`, `MAX_ROOM_OBJECTS_SUPPORTED` and `MAX_CHARACTERS_SUPPORTED`. <br>
-If this condition is not met, the module will crash the game n startup to prevent array out of 
+If this condition is not met, the module will crash the game on startup to prevent array out of 
 bounds access.
 
 #### HINT_SHAPE_TO_USE
 Which shape to use for hints. Can be `eHintCircle`, `eHintRectangle` or `eHintMixed`.
-When `eHintMixed` is selected, each shape is determined individually based using `HINT_SHAPE_MIXED_RATIO`.
+When `eHintMixed` is selected, each shape is determined individually with the help of `HINT_SHAPE_MIXED_RATIO`.
 
 #### HINT_SHAPE_MIXED_RATIO
-If HINT_SHAPE_TO_USE is set to `eHintMixed`, this will be the ratio used for deciding
+If `HINT_SHAPE_TO_USE` is set to `eHintMixed`, this will be the ratio used for deciding
 which shape to use.
 If the width/height or height/width of the area is larger than this
 defined value, then a rectangle will be used, otherwise, a circle. 
