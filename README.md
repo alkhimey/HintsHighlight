@@ -17,13 +17,13 @@ There are three ways of adding this module to a project. This list is ordered by
 
 1. Importing an `.scm` file ("_Explore Project_ -> Right Click on _Scripts_ -> _Import Script..._. Get it from the [_Releases_](https://github.com/alkhimey/HintsHighlight/releases) section on Github.
 2. Creating an empty script called _HintsHighlight_ through engines interface, downloading the source from this repository and finally copying the downloaded script over the empty one. 
-3. Creating an empty script called _HintsHighlight_ through engines interface and delete it from windows explorer, clone this repository, create a [*hard* link}(https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) from the cloned files to your games folder.
+3. Creating an empty script called _HintsHighlight_ through engines interface and delete it from windows explorer, clone this repository, create a [**hard** link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) from the cloned files to your games folder.
 
 The basic functionality of the module does not require any additional changes. Run the game and press the default key (`KEY_FOR_DISPLAYING_HINTS`, currently is set to `SPACE`) to see the hints.
 
 ### Configuration Options
 
-There are several configurable options that can be tweaked in the top of modules `asc` file.
+There are several configurable options that can be tweaked in the top of module's `asc` file.
 
 #### MAX_ROOM_HOTSPOSTS_SUPPORTED
 The the highest ID of a hotspot in the room. This is required because a 
@@ -41,7 +41,7 @@ static allocation for data in this module.
 To disable hints on objects, set this to 0.
 
 #### TOTAL_HINTS_SUPPORTED
-*IMPORTANT:* This value should always be the sum of 
+**IMPORTANT:** This value should always be the sum of 
 `MAX_ROOM_HOTSPOSTS_SUPPORTED`, `MAX_ROOM_OBJECTS_SUPPORTED` and `MAX_CHARACTERS_SUPPORTED`. <br>
 If this condition is not met, the module will crash the game n startup to prevent array out of 
 bounds access.
