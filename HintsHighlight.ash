@@ -1,16 +1,18 @@
 /** 
  * @author  Artium Nihamkin, artium@nihamkin.com
  * @date    09/2018
- * @version 2.2.0
+ * @updated 03/2025
+ * @version 3.0.0
  *  
  * @brief This is an AGS module that makes it possible to add a hinting
  *        system to a game. Upon user action, a shape will be drawn
- *        around each enabled hotspot in the room.
- *  
+ *        around each enabled hotspot in the room. Compatiable with AGS 3.5 
+ *        and higher.
+ *
  * @section LICENSE
  *
  * The MIT License (MIT)
- * Copyright © 2018 Artium Nihamkin, artium@nihamkin.com
+ * Copyright © 2025 Artium Nihamkin, artium@nihamkin.com
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the “Software”), to deal

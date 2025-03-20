@@ -7,6 +7,8 @@ This module adds an overlay which highlights all the visible and clickable objec
 
 After adding this module to a game, players can use this features when they wish to avoid "pixel hunting" and need a hint to progress with the game.
 
+**Note:** this module is compatiable with AGS 3.5 and above. For older version compatiable with older AGS version, see `before-ags3.5` tag.
+
 ### Example
 <img src="screenshots/demo.gif" width="635px" height="371px" />
 <sup> Game used for this demo is <i><a href="https://github.com/adventuregamestudio/ags-templates/blob/master/Templates/Sierra-style.agt">Sierra-style </a></i> template. All rights for the shown art are reserved for the respective artists. </sup>
