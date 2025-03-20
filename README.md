@@ -21,7 +21,9 @@ There are three ways of adding this module to a project. This list is ordered by
 2. Create an empty script called _HintsHighlight_ through engines interface, download the source from this repository and finally copy the downloaded script over the empty one. 
 3. Create an empty script called _HintsHighlight_ through engines interface and delete it from windows explorer, clone this repository, create a [**hard** link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) from the cloned files to your games folder.
 
-The basic functionality of the module does not require any additional changes. Run the game and press the default key (`KEY_FOR_DISPLAYING_HINTS`, currently is set to `SPACE`) to see the hints.
+The basic functionality of the module does not require any additional changes. Run the game and press the default key (`KEY_FOR_DISPLAYING_HINTS`, set to `SPACE` by default) to see the hints.
+
+Hints will not be displayed for disabled hotspots, non clickable characters, non clickable objects and non visible objects.
 
 ### Configuration Options
 
