@@ -70,6 +70,10 @@ Padding to add around objects/hotspots/characters in pixels.
 The color of the highlight shape. <br>
 The default is `Game.GetColorFromRGB(Random(255), Random(255), Random(255))` which randimizes the color of each highlight.
 
+#### SPRITE_SLOT
+If HINT_SHAPE_TO_USE is eHintSprite, indicates the slot number of the sprite in the sprite manager.
+The sprite is allowed to have alpha channel which will be taken into account when drawing.
+
 #### MINIMAL_SHAPE_SIZE
 To prevent highlights that are too small, it is possible to define minimal
 size. If the shape is smaller that that size, it's size will be increased.
